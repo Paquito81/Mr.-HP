@@ -1,6 +1,8 @@
 :root {
     --primary-color: #ffffff
     --secondary-color: rgb(41, 73, 4);
+    --teritary-color: red;
+
 
 }
 
@@ -9,12 +11,20 @@
     padding:0;
     margin: 0;
 }
+h2 {
+    font-size: 30px;
+    color:#ffffff
+}
 body {
     background: rgb(245, 248, 250);
     padding: 0;
     margin: 0;
 }
-
+ 
+h3 {
+color:#ffffff;
+font-size: 24px;
+}
 .header {
     padding: 5px;
     font-family: fantasy;
@@ -47,26 +57,29 @@ body {
 ul {
     list-style-type: disk;
 }
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
+.profile_pic {
+    width: 100%;
+    height: 175px;
+    background:url ('IMG_8212.PNG')
 }
+
+
 .header nav ul li a {
      font-size: 20px;
 }
 
-.header nav ul li a {
-    font-weight: lighter;
-    padding: 10px 15px;
-    text-shadow:0 0 10px rpg(0 0 0 / 50%);
+.header nav ul li a:hover {
+    background: #ffffff;
+    color:rgb(41, 73, 4);
+    border-radius: 15px;
+    text-shadow: none;
 }
-
-
 .header ul {
     list-style: none;
     display: inline-block;
 }
+
+
 
 .header ul li {
     display: inline;
@@ -87,12 +100,7 @@ li {
     font-family:fantasy;
 }
 
-.me {
-    width: -30px;
-    height: -30px;
-}
-
-section { 
+.section { 
     padding: 60px;
     color: aqua;
 }
